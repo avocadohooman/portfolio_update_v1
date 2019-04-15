@@ -77,16 +77,48 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
-  color: black;
+  background-color: #ed6463;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
 } 
+.experience {
+background-color: #4db3dd;
+color: white;
+}
+
+.exp th {
+  text-align: left;
+  padding-right: 15px;
+}
+
+.exp td {
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.skills li:nth-child(odd) {
+  background: #0399ff;
+}
+
+.experience-2 {
+  background-color: #ed6463;
+  color: white;
+}
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: #a899d7;
+  color: white;
 }
 .card {
   margin: 30px;
